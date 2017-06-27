@@ -23,6 +23,9 @@ class Division {
 	  catch(IllegalArgumentException e){
 		  System.out.println("Error: You cannot divide by 0!");
 	  }
+	  finally {
+		    System.out.println("finally block will execute.");
+	  }
   
   }
 }
